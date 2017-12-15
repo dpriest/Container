@@ -1,22 +1,21 @@
-# Compiled class file
-*.class
+# idea
+.idea/
+*.iml
 
-# Log file
-*.log
+# maven
+target/
 
-# BlueJ files
-*.ctxt
+# eclipse
+.settings
+.classpath
+.project
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# project own
+marketing-idl/src/main/resources/sdk
+log/
+logger.path_IS_UNDEFINED/dubbo.log
+logger.path_IS_UNDEFINED/marketing.log
+logger.path_IS_UNDEFINED/nova.log
+logger.path_IS_UNDEFINED/root.log
+logger.path_IS_UNDEFINED/sql.log
+marketing-service/hs_err_pid93739.log
